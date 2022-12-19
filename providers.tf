@@ -11,10 +11,10 @@ terraform {
   backend "s3" {
     bucket = "mystatestoringbucket"
     key    = "state/terraform.tfstate"
-    region = "ap-notheast-1"
+    region = "ap-northeast-1"
   }
 }
 
 provider "aws" {
-  region = "ap-notheast-1"
+  region = "ap-northeast-1"
 }
