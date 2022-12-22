@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "bucketterraformstatic123"
+    bucket = "saichaitanya1998"
     key    = "state/terraform.tfstate"
     region = "ap-northeast-1"
   }
