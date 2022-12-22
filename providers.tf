@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "mystatestoringbucket"
+    bucket = "bucketterraformstatic"
     key    = "state/terraform.tfstate"
     region = "ap-northeast-1"
   }
